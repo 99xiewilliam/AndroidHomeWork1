@@ -12,4 +12,30 @@
         android:layout_width="match_parent"
         android:id="@+id/listView" />
 
+    <RelativeLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="发送" />
+
+        <EditText
+            android:id="@+id/edit_query"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_toLeftOf="@id/btn_send" />
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
