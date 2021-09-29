@@ -10,6 +10,8 @@
     <ListView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:headerDividersEnabled="true"
+        android:stackFromBottom="true"
         android:id="@+id/listView" />
 
     <RelativeLayout
