@@ -11,6 +11,7 @@
         android:theme="@style/Theme.HelloWorld">
         <activity
             android:name=".ChatActivity"
+            android:label="@string/app_name3"
             android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity

@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/HelloWorld/app/src/main/res/drawable/shape.xml" value="0.27897435897435896" />
         <entry key="..\:/HelloWorld/app/src/main/res/layout/activity_chat.xml" value="0.1" />
         <entry key="..\:/HelloWorld/app/src/main/res/layout/activity_main.xml" value="0.115625" />
         <entry key="..\:/HelloWorld/app/src/main/res/layout/chat_activity.xml" value="0.19882246376811594" />
         <entry key="..\:/HelloWorld/app/src/main/res/layout/text.xml" value="0.14322916666666666" />
+        <entry key="..\:/HelloWorld/app/src/main/res/layout/text_view.xml" value="0.19882246376811594" />
       </map>
     </option>
   </component>

@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -21,7 +22,7 @@ import java.util.List;
 
 public class ChatActivity extends AppCompatActivity {
 
-    private Button btn;
+    private ImageView btn;
     private ListView listView;
     private EditText editText;
     private List<ChatMsgEntity> lists = new ArrayList<>();
@@ -60,7 +61,7 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     public String getDate() {
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm");
+        SimpleDateFormat format = new SimpleDateFormat("hh:mm");
         return format.format(new Date());
     }
 
@@ -100,9 +101,9 @@ public class ChatActivity extends AppCompatActivity {
             ViewHolder holder;
             if (view == null) {
                 holder = new ViewHolder();
-                view = View.inflate(getApplicationContext(), R.layout.text, null);
-                holder.tv_receive = (TextView) view.findViewById(R.id.tv_receive);
-                holder.tv_send = (TextView) view.findViewById(R.id.tv_send);
+                view = View.inflate(getApplicationContext(), R.layout.text_view, null);
+                holder.tv_receive = (TextView) view.findViewById(R.id.tv_receive1);
+                holder.tv_send = (TextView) view.findViewById(R.id.tv_send1);
                 //view.setBackgroundColor(Color.GREEN);
                 view.setTag(holder);
             } else {
