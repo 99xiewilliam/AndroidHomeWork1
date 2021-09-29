@@ -46,7 +46,6 @@ public class ChatActivity extends AppCompatActivity {
                     myAdapter.notifyDataSetChanged();
                     listView.setSelection(lists.size() - 1);
                     editText.setText("");
-
                 }
             }
         });
