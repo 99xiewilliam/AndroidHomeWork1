@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="hk.edu.cuhk.ie.iems5722.helloworld">
+    package="hk.edu.cuhk.ie.iems5722.a1_1155162650">
 
     <application
         android:allowBackup="true"

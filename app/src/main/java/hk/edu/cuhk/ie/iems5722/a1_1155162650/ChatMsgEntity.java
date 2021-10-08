@@ -1,4 +1,4 @@
-package hk.edu.cuhk.ie.iems5722.helloworld;
+package hk.edu.cuhk.ie.iems5722.a1_1155162650;
 
 public class ChatMsgEntity {
     private String message;
